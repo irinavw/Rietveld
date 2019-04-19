@@ -2,6 +2,10 @@
   margin: auto;
   width: 50%;
 }
+body {
+  border: 15px solid red;
+  margin: 0px;
+}
 h2 {
   color: black;
   font-size: 12pt;
@@ -10,33 +14,38 @@ h2 {
   padding-top: 80px;
   padding-bottom: 0px;
 }
+h3 {
+  color: black;
+  font-size: 8pt;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+}
 p {
   color: lightgrey;
   font-size: 12pt;
   font-family: 'Nanum Myeongjo', serif;
   text-align: left;
-  line-height: 1.3;
+  line-height: 1.8;
 }
 span {
-    color: black;
+  color: black;
 }
 a:link {
-  color: black;
-  text-decoration: none;
+  text-decoration: underline;
   }
 a:visited {
   color: black;
-  }
+}
 a:hover {
   font-style: italic;
-  }
+}
 a:active {
-  font-style: italic;
-  }
+  font-style: underline, italic;
+}
 .caption1 {
   height:1px;
   width:400px;
-  transform: rotate(90deg) translateX(400px) translateY(180px);
+  transform: rotate(90deg) translateX(450px) translateY(170px);
 }
 .caption2 {
   height:1px;
@@ -47,12 +56,14 @@ a:active {
 .caption3 {
   height:1px;
   width:500px;
-  transform: rotate(-50deg) translateX(-950px) translateY(950px);
+  transform: rotate(-50deg) translateX(-940px) translateY(940px);
 }
 .caption4 {
   height:300px;
   width:450px;
-  transform: translateX(-140px) translateY(50px);
+  padding-top:50px;
+  padding-bottom:50px;
+  transform: translateX(-140px);
 }
 .chairback {
   height: 800px;
@@ -78,6 +89,13 @@ a:active {
   width: 800px;
   background-color: black;
   margin: 0px;
+}
+.name{
+  height: 50px;
+  width: 300px;
+  background-color: red;
+  transform: rotate(90deg);
+  padding: 50px;
 }
 .blackStroke {
   background-color: white;
